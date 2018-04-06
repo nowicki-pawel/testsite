@@ -1,0 +1,41 @@
+body {
+    background-color: aliceblue;
+    font-family: FreeSans;
+}
+
+#content {
+    color: lightslategray;
+    background-color: white;
+    width: 400px;
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-height: 200px;
+    overflow: hidden;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+p {
+    margin:10px;
+}
+
+#content.open{
+    max-height: 800px;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#show-more {
+    display: table;
+    background-color: coral;
+    color: white;
+    margin: 0 auto;
+    padding: 20px;
+    width: 120px;
+    text-align: center;
+}
